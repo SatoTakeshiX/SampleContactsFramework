@@ -14,6 +14,14 @@
 		30D555B41BE904E200AA0523 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D555B21BE904E200AA0523 /* LaunchScreen.storyboard */; };
 		30D555BF1BE904E200AA0523 /* SampleContactsFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D555BE1BE904E200AA0523 /* SampleContactsFrameworkTests.swift */; };
 		30D555CA1BE904E200AA0523 /* SampleContactsFrameworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D555C91BE904E200AA0523 /* SampleContactsFrameworkUITests.swift */; };
+		30D555D91BE9050300AA0523 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D555D71BE9050300AA0523 /* Contacts.framework */; };
+		30D555DA1BE9050300AA0523 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D555D81BE9050300AA0523 /* ContactsUI.framework */; };
+		30D555DC1BEA1FAC00AA0523 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D555DB1BEA1FAC00AA0523 /* HomeTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		30D555DD1BEA1FAC00AA0523 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D555DB1BEA1FAC00AA0523 /* HomeTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		30D555DF1BEA21D800AA0523 /* AddressBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D555DE1BEA21D800AA0523 /* AddressBookViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		30D555E01BEA21D800AA0523 /* AddressBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D555DE1BEA21D800AA0523 /* AddressBookViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		30D555E31BEA343200AA0523 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D555E11BEA343200AA0523 /* AddressBook.framework */; };
+		30D555E41BEA343200AA0523 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D555E21BEA343200AA0523 /* AddressBookUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,12 @@
 		30D555C51BE904E200AA0523 /* SampleContactsFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleContactsFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D555C91BE904E200AA0523 /* SampleContactsFrameworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleContactsFrameworkUITests.swift; sourceTree = "<group>"; };
 		30D555CB1BE904E200AA0523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30D555D71BE9050300AA0523 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		30D555D81BE9050300AA0523 /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
+		30D555DB1BEA1FAC00AA0523 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		30D555DE1BEA21D800AA0523 /* AddressBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressBookViewController.swift; sourceTree = "<group>"; };
+		30D555E11BEA343200AA0523 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		30D555E21BEA343200AA0523 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30D555E31BEA343200AA0523 /* AddressBook.framework in Frameworks */,
+				30D555E41BEA343200AA0523 /* AddressBookUI.framework in Frameworks */,
+				30D555D91BE9050300AA0523 /* Contacts.framework in Frameworks */,
+				30D555DA1BE9050300AA0523 /* ContactsUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +99,10 @@
 				30D555BD1BE904E200AA0523 /* SampleContactsFrameworkTests */,
 				30D555C81BE904E200AA0523 /* SampleContactsFrameworkUITests */,
 				30D555A71BE904E200AA0523 /* Products */,
+				30D555E11BEA343200AA0523 /* AddressBook.framework */,
+				30D555E21BEA343200AA0523 /* AddressBookUI.framework */,
+				30D555D71BE9050300AA0523 /* Contacts.framework */,
+				30D555D81BE9050300AA0523 /* ContactsUI.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +122,8 @@
 				30D555A91BE904E200AA0523 /* AppDelegate.swift */,
 				30D555AB1BE904E200AA0523 /* ViewController.swift */,
 				30D555AD1BE904E200AA0523 /* Main.storyboard */,
+				30D555DB1BEA1FAC00AA0523 /* HomeTableViewController.swift */,
+				30D555DE1BEA21D800AA0523 /* AddressBookViewController.swift */,
 				30D555B01BE904E200AA0523 /* Assets.xcassets */,
 				30D555B21BE904E200AA0523 /* LaunchScreen.storyboard */,
 				30D555B51BE904E200AA0523 /* Info.plist */,
@@ -255,7 +279,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30D555DC1BEA1FAC00AA0523 /* HomeTableViewController.swift in Sources */,
 				30D555AC1BE904E200AA0523 /* ViewController.swift in Sources */,
+				30D555DF1BEA21D800AA0523 /* AddressBookViewController.swift in Sources */,
 				30D555AA1BE904E200AA0523 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +298,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30D555E01BEA21D800AA0523 /* AddressBookViewController.swift in Sources */,
+				30D555DD1BEA1FAC00AA0523 /* HomeTableViewController.swift in Sources */,
 				30D555CA1BE904E200AA0523 /* SampleContactsFrameworkUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
